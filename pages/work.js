@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Portfolio from "../components/Portfolio";
 
 const work = () => {
   return (
@@ -9,6 +10,7 @@ const work = () => {
           heading="My Work"
           message="This is my recent work travelling the world"
         />
+        <Portfolio />
       </div>
     </>
   );
