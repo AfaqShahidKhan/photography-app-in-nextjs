@@ -6,6 +6,7 @@ const contact = () => {
   return (
     <>
       <div>
+        {/*  The hero section define the properties of this page*/}
         <Hero
           heading="Contact"
           message="Submit the form below for more work or collaboration"

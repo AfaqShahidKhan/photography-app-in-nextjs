@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 
+// This is the childern component of Instagram that recieve the props
 const InstagramImg = ({ socialImg }) => {
   return (
     <>

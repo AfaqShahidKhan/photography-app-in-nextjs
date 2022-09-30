@@ -10,6 +10,7 @@ const work = () => {
           heading="My Work"
           message="This is my recent work travelling the world"
         />
+        {/*  Here I passed  the portfolio component to describe my work*/}
         <Portfolio />
       </div>
     </>

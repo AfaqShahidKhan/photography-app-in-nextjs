@@ -3,6 +3,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
+    // This is the file where i have shared my personal experiences of my passion
     <div className="max-w-[1240px] mx-auto py-16 text-center">
       <h1 className="font-bold text-2xl p-4">Travel Photos</h1>
       <div className="grid grid-rows-none md:grid-cols-5 p-4 gap-4">

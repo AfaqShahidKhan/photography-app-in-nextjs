@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+// this function is used to assign the values of navbar
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
@@ -10,6 +11,7 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+  // This property will change the color of navbar on scrolling of the cursor
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
@@ -34,7 +36,7 @@ const Navbar = () => {
               style={{ color: `${textColor}` }}
               className="font-bold text-4xl"
             >
-              Capture
+              Photosonic
             </h1>
           </Link>
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex ">
@@ -64,6 +66,7 @@ const Navbar = () => {
           </div>
           {/* Mobile Menu */}
           <div
+            // The logic behind the scrolling of the cursor
             className={
               nav
                 ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"

@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
-
+// I have made this file for the text layout design
 export default function Document() {
   return (
     <Html>

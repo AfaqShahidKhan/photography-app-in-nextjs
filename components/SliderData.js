@@ -1,4 +1,5 @@
 export const SliderData = [
+  // here are the images url that i have used in my project
   {
     image:
       "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",

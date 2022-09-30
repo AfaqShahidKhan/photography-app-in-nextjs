@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { SliderData } from "./SliderData";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
-
+// here I have used the slides as props to assign the instruction of next data
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;

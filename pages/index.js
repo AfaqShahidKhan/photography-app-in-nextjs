@@ -17,7 +17,9 @@ export default function Home() {
         heading="Capture Photography"
         message="I capture moments in nature and keep them alive."
       />
+      {/*  Here I passed the images in the form of slides as Props */}
       <Slider slides={SliderData} />
+      {/* The instagram pics are here  */}
       <Instagram />
     </div>
   );
