@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       {/* Here is the detail of how to contact me */}
       <div className="max-w-[1248px] m-auto p-4 h-screen">
-        <h1 className="text-xl font-bold">Let's work togther</h1>
+        <h1 className="text-xl font-bold">Let&apos;s work togther</h1>
         <form className=" max-w-[688px] m-auto">
           <div className="grid grid-cols-2 gap-2">
             <input
